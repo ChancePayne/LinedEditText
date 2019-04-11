@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--S04M04-5 add our view to the layout-->
+    <com.lambdaschool.linededittext.views.LinedEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine"
+        android:lineSpacingMultiplier="2"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce malesuada elit sed dolor lobortis lobortis. Suspendisse potenti. Donec efficitur ornare leo, vitae placerat lorem convallis ac. Fusce pretium finibus vestibulum. Cras sit amet justo tortor. Aliquam erat volutpat. Suspendisse a nisl tortor. Phasellus malesuada non tortor eu pellentesque. Aenean luctus iaculis dui, in pulvinar diam lobortis et. Nullam sapien lectus, malesuada finibus blandit vel, convallis at ligula. Mauris ut dui pretium, vehicula dui in, molestie magna. Vestibulum accumsan ex eu dignissim sodales. Donec placerat, dolor eu viverra fermentum, felis justo suscipit turpis, sed sodales tortor leo ac mauris. Pellentesque nec pharetra dolor. Nulla blandit tristique sem ultricies consequat. Quisque ut sem pellentesque, vehicula augue sed, malesuada libero."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
