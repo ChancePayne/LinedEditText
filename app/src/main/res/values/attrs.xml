@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--S04M04-6 add attributes to pass values in the xml-->
+    <declare-styleable name="LinedEditText">
+        <attr name="line_color" format="color"/>
+        <attr name="line_thickness" format="float"/>
+        <attr name="line_offset" format="integer"/>
+    </declare-styleable>
+</resources>
